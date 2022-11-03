@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "RingTimerView",
             dependencies: []),
-        .testTarget(
-            name: "RingTimerViewTests",
-            dependencies: ["RingTimerView"]),
     ]
 )
